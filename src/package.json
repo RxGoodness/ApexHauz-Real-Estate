@@ -1,0 +1,35 @@
+{
+  "name": "side-hustle",
+  "description": "Real estate App",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_OPTIONS='--experimental-specifier-resolution=node' node app.js",
+     "dev": "NODE_OPTIONS='--experimental-specifier-resolution=node' nodemon app.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RxGoodness/ApexHauz-Real-Estate.git"
+  },
+  "author": "RxGoodness",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.29.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "bugs": {
+    "url": "https://github.com/RxGoodness/ApexHauz-Real-Estate/issues"
+  },
+  "homepage": "https://github.com/RxGoodness/ApexHauz-Real-Estate.#readme"
+}
